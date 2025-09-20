@@ -240,13 +240,13 @@ window.fs.addChild(new Folder({
             img: 'img/desktop/InternetExplorer.png',
             title: 'Twitter',
             shortcut: true,
-            launch: 'web:https://twitter.com/patrick_kage'
+            launch: 'web:https://x.com/Vigneshwax'
         },
         {
             img: 'img/desktop/WavFile.png',
-            title: 'roll.wav',
+            title: 'Leg Workout',
             shortcut: true,
-            launch: 'web:https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+            launch: 'web:https://vigneshwax.blogspot.com/2025/04/leg-workout.html'
         }
     ]
 }))
