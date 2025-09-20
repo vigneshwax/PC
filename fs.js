@@ -185,25 +185,25 @@ window.fs.addChild(new Folder({
             img: 'img/desktop/InternetExplorer.png',
             title: 'GitHub',
             shortcut: true,
-            launch: 'web:https://github.com/pkage'
+            launch: 'web:https://github.com/vigneshwax'
         },
         {
             img: 'img/desktop/InternetExplorer.png',
             title: 'LinkedIn',
             shortcut: true,
-            launch: 'web:https://www.linkedin.com/in/patrick-kage-652ba8122/'
+            launch: 'web:https://www.linkedin.com/in/vigneshwaran-peoplefirst/'
         },
         {
             img: 'img/desktop/InternetExplorer.png',
             title: 'Keybase',
             shortcut: true,
-            launch: 'web:https://keybase.io/pkage'
+            launch: 'web:https://keybase.io/vigneshwax'
         },
         {
             img: 'img/desktop/InternetExplorer.png',
             title: 'My Blog',
             shortcut: true,
-            launch: 'web:https://ka.ge/blog/'
+            launch: 'web:https://vigneshwaranhr.blogspot.com/'
         },
         {
             img: 'img/desktop/Email.png',
@@ -221,7 +221,7 @@ window.fs.addChild(new Folder({
             img: 'img/special/ORCID.png',
             title: 'ORCID',
             shortcut: true,
-            launch: 'web:https://orcid.org/0000-0002-5639-1237'
+            launch: 'web:https://orcid.org/0009-0007-0823-1881'
         },
         {
             img: 'img/desktop/SystemFile.png',

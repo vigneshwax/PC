@@ -4,7 +4,7 @@ class ResumeProgram extends Program {
     }
 
     getDocumentURL() {
-        return '//kage.dev/resume.pdf'
+        return '//vicky147.github.io/Resume/Resume.pdf'
     }
 
     getDocumentTitle() {
@@ -82,7 +82,7 @@ class ResumeProgram extends Program {
 
 class CVProgram extends ResumeProgram {
     getDocumentURL() {
-        return '//kage.dev/cv.pdf'
+        return '//vicky147.github.io/Resume/CV.pdf'
     }
 
     getDocumentTitle() {
