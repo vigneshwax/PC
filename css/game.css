@@ -1,4 +1,4 @@
-/* Make the iframe fill the window content area */
+/* Make the iframe fill the window content area for temple run */
 .window__templerun .templerun__iframe {
   position: absolute;   /* anchor to the window body */
   inset: 0;             /* top/right/bottom/left: 0 in one line */
