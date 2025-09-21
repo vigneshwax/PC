@@ -1,4 +1,3 @@
-
 const PGP_PUBLIC_KEY = `
 Comment: https://keybase.io/download
 ID : Vigneshwax
@@ -6,6 +5,21 @@ Version: 1.0
 
 I created the webste to publish and store my HR related documents and blogs.
 you can check it out at this website for more details.
+
+
+📋 HR Skills Progress Checklist
+
+[x] Blogger Website Design 
+[x] Attendance Sheet in Excle
+[x] HR Automation - Zapier/Make (Integromat)
+[x] PC - website Build 
+[ ] Interviews Tracker Google Sheet
+[ ] Attendance - Power BI 
+[ ] Offer Letter Template 
+[ ] Offer Letter Automation – Mail Merge (Word + Excel)  
+[ ] Interview scheduling, reminders (Automation)
+[ ] Power BI HR dashboards
+[ ] Recruitment Pipeline Dashboard – Excel/Power BI
 `
 
 class NotepadProgram extends Program {
