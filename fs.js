@@ -274,6 +274,33 @@ window.fs.addChild(new Folder({
 }))
 
 window.fs.root.children['My Documents'].addChild(new Folder({
+    name: 'Excle',
+    icon: 'img/desktop/Favorites.png',
+    contents: [
+
+    ]
+}))
+
+window.fs.root.children['My Documents'].addChild(new Folder({
+    name: 'Images',
+    icon: 'img/desktop/Favorites.png',
+    contents: [
+          {
+            img: 'img/desktop/Image.png',
+            title: 'Me',
+            launch: 'image'
+        },
+          {
+            img: 'img/desktop/Image.png',
+            title: 'Covercation',
+            launch: 'Covercation'
+        },
+
+    ]
+}))
+
+
+window.fs.root.children['My Documents'].addChild(new Folder({
     name: 'My Papers',
     icon: 'img/desktop/Favorites.png',
     contents: [
@@ -293,9 +320,29 @@ window.fs.root.children['My Documents'].addChild(new Folder({
 }))
 
 window.fs.root.children['My Documents'].addChild(new Folder({
-    name: 'My Vigneshwaran',
+    name: 'My Talks',
     icon: 'img/desktop/Favorites.png',
     contents: [
+        {
+            img: 'img/desktop/Mplayer.png',
+            title: 'Better Conversation',
+            shortcut: true,
+            launch: 'web:https://youtu.be/UhurobZeJX4?si=2m0OONCPZQrS131j'
+        },
+        {
+            img: 'img/desktop/Mplayer.png',
+            title: 'AD Blockers',
+            shortcut: true,
+            launch: 'web:https://youtu.be/GqiK_rLRq5Y?si=3IAy8M2XcG4mN16W'
+        }
+    ]
+}))
+
+window.fs.root.children['My Documents'].addChild(new Folder({
+    name: 'Vigneshwaran',
+    icon: 'img/desktop/Favorites.png',
+    contents: [
+        /*--
         {
             img: 'img/special/ArXivFile.png',
             title: 'Class Introspection...',
@@ -307,29 +354,14 @@ window.fs.root.children['My Documents'].addChild(new Folder({
             title: 'Honours Project',
             shortcut: true,
             launch: 'web:https://misc.ka.ge/honours.pdf'
-        }
+        }--*/
     ]
 }))
 
 
-window.fs.root.children['My Documents'].addChild(new Folder({
-    name: 'My Talks',
-    icon: 'img/desktop/Favorites.png',
-    contents: [
-        {
-            img: 'img/desktop/Mplayer.png',
-            title: 'KRHCAI: Class Introspection',
-            shortcut: true,
-            launch: 'web:https://www.youtube.com/watch?v=i2gULufLnf8'
-        },
-        {
-            img: 'img/desktop/Mplayer.png',
-            title: 'HACKCON: Discord For Hackathons',
-            shortcut: true,
-            launch: 'web:https://www.youtube.com/watch?v=9bSudnnyQ5w'
-        }
-    ]
-}))
+
+
+
 
 
 window.fs.loadFilesystem()
