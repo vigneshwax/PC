@@ -8,6 +8,10 @@
         <link rel="stylesheet" href="css/index.css" />
         <link rel="stylesheet" href="css/prog.css" />
         <link rel="stylesheet" href="lib/xterm/xterm.css" />
+
+        <link rel="stylesheet" href="css/game.css" />
+        <link rel="stylesheet" href="css/app.css" />
+
         <link href="img/taskbar/WindowsFlagSmall.png" rel="icon">
 
         <meta name="theme-color" content="#008888">
@@ -42,7 +46,9 @@
     </head>
     <body>
         <div class="window-host">
+            
             <div class="window" data-window style="top: 50px;" data-name="Welcome!" data-icon="img/taskbar/WindowsFlagSmall.png" data-wm_order="0" data-_wm_id="initialwindow">
+                
                 <div class="title-bar">
                     <div class="title-bar-text">
                         Welcome!
@@ -108,7 +114,8 @@
                </div>
             </div>
         </div>
-        <div class="desktop-container">
+        <div class="desktop-container" style="background:url('img/wallpaper.jpg') no-repeat center center fixed; background-size:cover;">
+
             <canvas id="selections"></canvas>
             <div class="desktop">
                 <div class="desktop-icon" data-launch="welcome">
@@ -182,13 +189,23 @@
                     <span>Recycling Bin</span>
                 </div>
                 
-                 <div class="desktop-icon" data-launch="templerun">
+                <div class="desktop-icon" data-launch="templerun">
                     <img src="img/desktop/temple-run2.png" alt="templerun">
                     <div class="desktop-icon__shortcut">
                         <img src="img/ShortcutIcon.png" alt="Shortcut">
                     </div>
                     <span>Temple Run</span>
                 </div>
+
+                <div class="desktop-icon" data-launch="Excel">
+                    <img src="img/desktop/excel.png" alt="Excel">
+                    <div class="desktop-icon__shortcut">
+                        <img src="img/ShortcutIcon.png" alt="Shortcut">
+                    </div>
+                    <span>Excel</span>
+                </div>
+
+
             </div>
         </div>
 
@@ -403,6 +420,7 @@
         <script src="programs.js" type="text/javascript"></script>
         <script src="fs.js" type="text/javascript"></script>
         <script src="prog/templerun.js" type="text/javascript"></script>
+        <script src="prog/app/excel.js" type="text/javascript"></script>
         <!-- <script src="vm.js" type="text/javascript"></script> -->
 
         <script src="prog/resume.js" type="text/javascript" defer></script>           <script src="prog/resume.js" type="text/javascript" defer></script>
