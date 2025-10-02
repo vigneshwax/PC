@@ -1,10 +1,21 @@
-/* Make the iframe fill the window content area for Excel */
-.window__templerun .templerun__iframe {
+/* Make the iframe fill the window content area for Excel Online */
+.window__excel .excel__iframe {
   position: absolute;   /* anchor to the window body */
   inset: 0;             /* top/right/bottom/left: 0 in one line */
   width: 100%;
   height: 100%;
   border: 0;
   display: block;       /* avoid inline gaps */
-  background: #000;     /* optional: hide loading edges */
+  background: #fff;     /* optional: white background for Excel */
+}
+
+/* Make the iframe fill the window content area for Blogger Graph */
+.window__Graph .Graph__iframe {
+  position: absolute;   /* anchor to the window body */
+  inset: 0;             /* top/right/bottom/left: 0 in one line */
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;       /* avoid inline gaps */
+  background: #fff;     /* optional: white background for Excel */
 }
