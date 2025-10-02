@@ -4,7 +4,7 @@ class ResumeProgram extends Program {
     }
 
     getDocumentURL() {
-        return '//vicky147.github.io/Resume/Resume.pdf'
+        return 'resume.pdf'
     }
 
     getDocumentTitle() {
