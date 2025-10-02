@@ -537,8 +537,10 @@ class MouseManager {
 }
 
 
+
 // TOUCH SUPPORT
 
 
 window.mm = new MouseManager()
 window.wm = new WindowManager()
+

@@ -9,6 +9,18 @@
   background: #fff;     /* optional: white background for Excel */
 }
 
+/* Make the iframe fill the window content area for Blogger */
+.window__Blogger .Blogger__iframe {
+  position: absolute;   /* anchor to the window body */
+  inset: 0;             /* top/right/bottom/left: 0 in one line */
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;       /* avoid inline gaps */
+  background: #fff;     /* optional: white background for Excel */
+}
+
+
 /* Make the iframe fill the window content area for Blogger Graph */
 .window__Graph .Graph__iframe {
   position: absolute;   /* anchor to the window body */
@@ -18,4 +30,15 @@
   border: 0;
   display: block;       /* avoid inline gaps */
   background: #fff;     /* optional: white background for Excel */
+}
+
+/* Make the iframe fill the window content area for BlogSearch */
+.window__BlogSearch .BlogSearch__iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+  background: #fff;
 }

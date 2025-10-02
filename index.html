@@ -163,12 +163,12 @@
                     </div>
                     <span>Outlook Express</span>
                 </div>
-                <div class="desktop-icon" data-launch="web:https://vigneshwaranhr.blogspot.com/">
-                    <img src="img/desktop/InternetExplorer.png" alt="Internet Explorer">
-                    <div class="desktop-icon__shortcut">
-                        <img src="img/ShortcutIcon.png">
-                    </div>
-                    <span>My Blog</span>
+               <div class="desktop-icon" data-launch="Blogger">
+                        <img src="img/desktop/Blogger.png" alt="Blogger">
+                        <div class="desktop-icon__shortcut">
+                             <img src="img/ShortcutIcon.png" alt="Shortcut">
+                        </div>
+                        <span>My Blogger</span>
                 </div>
                 <div class="desktop-icon" data-launch="cmd">
                     <img src="img/desktop/MSDOS.png" alt="DOS Prompt" >
@@ -230,11 +230,32 @@
             <img src="img/taskbar/IESmall.png" alt="Internet Explorer" title="Lauch Internet Explorer Browser" class="task-bar__quick">
             <img src="img/taskbar/OutlookExpress.png" alt="Outlook Express" title="Lauch Outlook Express" class="task-bar__quick" data-launch="email">
 
-            <div class="task-bar__divider"></div>
-            <div class="task-bar__main" id="task-bar__main">
+            <!-- 👇 PASTE THE SEARCH HTML HERE 👇 -->
+                <div class="task-bar__search">
+                    <input type="text" 
+                        id="search-input" 
+                        class="task-bar__search-input" 
+                        placeholder="Search..."
+                        aria-label="Search website">
+                    <button class="task-bar__search-btn" 
+                            onclick="performSearch()" 
+                            aria-label="Search">
+                        <img src="data:image/svg+xml,%3Csvg width='12' height='12' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='5' cy='5' r='4' fill='none' stroke='%23000' stroke-width='1'/%3E%3Cline x1='8' y1='8' x2='11' y2='11' stroke='%23000' stroke-width='2'/%3E%3C/svg%3E" 
+                            alt="Search">
+                    </button>
+                </div>
 
-            </div>
+
+
+            
+            <!-- 👆 END OF SEARCH HTML 👆 -->
+
             <div class="task-bar__divider"></div>
+        
+            <div class="task-bar__main" id="task-bar__main">
+            </div>
+            
+            <div class="task-bar__divider"></div>        
             <div class="task-bar__tray">
                 <img src="img/taskbar/TaskScheduler.png" alt="Task Scheduler" title="Task Scheduler is ready." class="task-bar__tray__icon"/>
                 <img src="img/taskbar/Volume.png" alt="Volume" title="Volume" class="task-bar__tray__icon"/>
@@ -416,6 +437,7 @@
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </div>
@@ -431,6 +453,9 @@
         <script src="prog/templerun.js" type="text/javascript"></script>
         <script src="prog/app/excel.js" type="text/javascript"></script>
         <script src="prog/app/graph.js" type="text/javascript"></script>
+        <script src="prog/app/blogger.js" type="text/javascript"></script>
+        <script src="prog/search.js" type="text/javascript"></script>
+
         <!-- <script src="vm.js" type="text/javascript"></script> -->
 
         <script src="prog/resume.js" type="text/javascript" defer></script>           <script src="prog/resume.js" type="text/javascript" defer></script>
